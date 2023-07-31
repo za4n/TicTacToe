@@ -1,0 +1,46 @@
+*,* ::after,*::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+  .app{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .tictactoe{
+   
+    width: 27rem;
+    min-height: 23rem;
+    background-color: aqua;
+    display: flex;
+    
+    flex-direction: column;
+  }
+
+  .r{
+flex-grow: 1;
+background-color: rgb(225, 223, 184);
+display: flex;
+
+  }
+  .c{
+    position: relative;
+    cursor: pointer; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+flex-grow: 1;
+border: 1px solid rgb(44, 48, 53);
+  }
+.square{
+  position: absolute;
+ font-size: 1.3rem;
+}
+.c:active{
+  background-color: rgb(172, 171, 139);
+}
